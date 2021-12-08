@@ -195,3 +195,10 @@ footer {
   background-color: #888888;
   color: #454242;
 }
+
+@media screen and (max-width: 800px) {
+
+  .nav{
+  flex-direction: column;
+}
+}
