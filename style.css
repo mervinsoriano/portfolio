@@ -5,12 +5,14 @@ body {
   margin: 0;
   background-color: #ffffff;
 }
+
 .nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .nav-links {
@@ -47,7 +49,6 @@ body {
   width: 131.9px;
   height: 12px;
   left: 30px;
-  top: 50px;
   margin-left: 50px;
 }
 
@@ -57,7 +58,6 @@ body {
   justify-content: center;
   flex-wrap: nowrap;
   column-gap: 1.5em;
-  height: 300px;
   /* column-gap: 1.5em;
   row-gap: 3em;*/
 }
@@ -197,8 +197,10 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-
   .nav{
   flex-direction: column;
+}
+  .my-logo {
+  margin-left: 0;
 }
 }
