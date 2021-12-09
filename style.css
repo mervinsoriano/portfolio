@@ -204,4 +204,12 @@ footer {
   .my-logo {
   margin-left: 0;
 }
+  
+  #hero {
+  flex-wrap: wrap;
+
+}
+  .profile-pic {
+  align:center;
+}
 }
