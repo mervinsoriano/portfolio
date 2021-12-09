@@ -23,7 +23,7 @@ body {
 
 .nav-item {
   font-family: "Lato";
-  padding: 10px 30px;
+  padding: 0 30px;
   font-style: normal;
   font-size: 18px;
 }
@@ -58,6 +58,7 @@ body {
   justify-content: center;
   flex-wrap: nowrap;
   column-gap: 1.5em;
+  margin-bottom: 50px;
   /* column-gap: 1.5em;
   row-gap: 3em;*/
 }
