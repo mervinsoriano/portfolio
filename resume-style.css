@@ -49,7 +49,6 @@ body {
   width: 131.9px;
   height: 12px;
   left: 30px;
-  top: 50px;
   margin-left: 50px;
 }
 
@@ -150,4 +149,13 @@ footer {
   margin-top: 50px;
   background-color: #888888;
   color: #454242;
+}
+
+@media screen and (max-width: 800px) {
+  .nav{
+  flex-direction: column;
+}
+  .my-logo {
+  margin-left: 0;
+}
 }
