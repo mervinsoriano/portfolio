@@ -23,7 +23,7 @@ body {
 
 .nav-item {
   font-family: "Lato";
-  padding: 10px 30px;
+  padding: 0 30px;
   font-style: normal;
   font-size: 18px;
 }
@@ -103,16 +103,6 @@ h2 {
   object-fit: cover;*/
 }
 
-img {
-  max-width: 100%;
-  vertical-align: bottom;
-  align: center;
-  /*border-radius: 100%;*/
-  /*clip-path: circle();
-  height: 160px;
-  border-radius: 11px 11px 0px 0px;
-  object-fit: cover;*/
-}
 
 
 p, ul, li{
@@ -124,10 +114,6 @@ p, ul, li{
   line-height: 1.6;
 }
 
-ul {
-  margin-top: -10px;
-}
-
 p.tagline{
   color: #F78349;
   font-weight: 700;
@@ -136,7 +122,7 @@ p.tagline{
 
 p.title{
   font-weight: 700;
-  color: #898888;
+  color:#888888;
 }
 
 p.location{
